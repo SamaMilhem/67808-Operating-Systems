@@ -34,8 +34,8 @@ A **user-level thread library** implemented in C++ as part of the **67808 Operat
 ## **Installation**
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
-   cd <repository-folder>
+   git clone https://github.com/SamaMilhem/67808-Operating-Systems.git
+   cd 67808-Operating-Systems/Uthreads_Library
    ```
 2. Compile the code:
    ```bash
