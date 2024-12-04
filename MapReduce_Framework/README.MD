@@ -1,5 +1,4 @@
 # MapReduce Framework
-
 ## **Overview**
 This project is a custom implementation of a multi-threaded **MapReduce Framework** in C++. The framework processes input data using the MapReduce paradigm, with distinct **Map**, **Shuffle**, and **Reduce** phases. It is designed to work efficiently with multithreading and provides synchronization primitives to ensure thread safety. The implementation was developed and tested on **Linux**, leveraging POSIX threading libraries.
 
