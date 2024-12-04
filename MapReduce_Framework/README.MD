@@ -1,7 +1,7 @@
 # MapReduce Framework
 
 ## **Overview**
-This project is a custom implementation of a multi-threaded **MapReduce Framework** in C++. The framework processes input data using the MapReduce paradigm, with distinct **Map**, **Shuffle**, and **Reduce** phases. It is designed to work efficiently with multithreading and provides synchronization primitives to ensure thread safety.
+This project is a custom implementation of a multi-threaded **MapReduce Framework** in C++. The framework processes input data using the MapReduce paradigm, with distinct **Map**, **Shuffle**, and **Reduce** phases. It is designed to work efficiently with multithreading and provides synchronization primitives to ensure thread safety. The implementation was developed and tested on **Linux**, leveraging POSIX threading libraries.
 
 ---
 
@@ -16,6 +16,7 @@ This project is a custom implementation of a multi-threaded **MapReduce Framewor
     - Atomic counters.
     - Custom **Barrier** class for thread synchronization.
 - Ensures safety and correctness with error handling and dynamic memory management.
+- Fully tested on **Linux** environments.
 
 ---
 
@@ -37,6 +38,7 @@ This project is a custom implementation of a multi-threaded **MapReduce Framewor
 ### **Dependencies**
 - A C++11-compatible compiler.
 - `pthread` library (POSIX threads).
+- **Linux environment**.
 
 ### **Build Instructions**
 1. Open a terminal and navigate to the project directory.
@@ -134,6 +136,6 @@ The character 'c' appeared 4 times
 ---
 
 ## **Acknowledgments**
-This framework was developed as part of the **67808 Operating Systems** course at the Hebrew University. Special thanks to the course instructors for their guidance and support.
+This framework was developed as part of the **67808 Operating Systems** course at the Hebrew University. It was designed and tested in a **Linux environment**, leveraging the POSIX threading library. Special thanks to the course instructors for their guidance and support.
 
 ---
