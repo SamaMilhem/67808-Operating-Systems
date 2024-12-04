@@ -1,6 +1,8 @@
 # **User-Level Thread Library**
 
-A **user-level thread library** implemented in C++ as part of the **67808 Operating Systems** course at the Hebrew University. This library provides core functionalities for thread management, including creation, scheduling, blocking, resuming, and sleeping, all while leveraging **signals** and **timers** for preemptive multitasking.
+A **user-level thread library** implemented in C++ as part of the **67808 Operating Systems** course at the Hebrew University. This library provides core functionalities for thread management, including creation, scheduling, blocking, resuming, and sleeping, all while leveraging **signals** and **timers** for preemptive multitasking. 
+
+**Note**: This library was specifically developed and tested on **Linux Operating Systems**.
 
 ---
 
@@ -41,6 +43,8 @@ A **user-level thread library** implemented in C++ as part of the **67808 Operat
    ```bash
    make
    ```
+
+**Note**: Ensure you are using a **Linux-based OS** with GCC installed.
 
 ---
 
@@ -121,7 +125,7 @@ int main() {
 ├── uthreads.cpp       # Thread library implementation
 ├── uthreads.h         # Thread library header
 ├── Makefile           # Build script
-
+└── tests.cpp          # Test cases
 ```
 
 ---
@@ -133,6 +137,8 @@ int main() {
     - Supports a maximum of `100` concurrent threads.
 - **Preemption**:
     - Preemptive scheduling is based on quantum expiry.
+- **Linux-Specific**:
+    - This library uses `SIGVTALRM`, `sigsetjmp`, and `siglongjmp`, which are Linux-specific and may not work on other operating systems.
 
 ---
 
