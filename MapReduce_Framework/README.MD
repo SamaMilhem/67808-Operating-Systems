@@ -131,10 +131,3 @@ The character 'b' appeared 3 times
 The character 'c' appeared 4 times
 ...
 ```
-
----
-
-## **Acknowledgments**
-This framework was developed as part of the **67808 Operating Systems** course at the Hebrew University. It was designed and tested in a **Linux environment**, leveraging the POSIX threading library. Special thanks to the course instructors for their guidance and support.
-
----

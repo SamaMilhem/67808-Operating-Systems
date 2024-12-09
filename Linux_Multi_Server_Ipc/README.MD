@@ -130,9 +130,3 @@ Replace `<path_to_info_directory>` with the directory path where the server info
 - **Client**:
     - Handles errors in connecting to servers, reading files, and retrieving messages.
     - Logs appropriate messages and skips problematic servers.
-
----
-## Acknowledgments
-This project was developed as part of the **67808 Operating Systems** course at the Hebrew University. Special thanks to the course instructors for their guidance and support.
-
----

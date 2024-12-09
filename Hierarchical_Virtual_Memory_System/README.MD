@@ -116,8 +116,3 @@ int main(int argc, char **argv) {
     return 0;
 }
 ```
-
----
-
-## **Acknowledgments**
-This project was developed as part of the **67808 Operating Systems** course at the Hebrew University. Special thanks to the course instructors for their guidance and support.
