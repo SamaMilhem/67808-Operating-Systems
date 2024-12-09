@@ -140,9 +140,3 @@ int main() {
 - **Linux-Specific**:
     - This library uses `SIGVTALRM`, `sigsetjmp`, and `siglongjmp`, which are Linux-specific and may not work on other operating systems.
 
----
-
-## **Acknowledgments**
-This library was developed as part of the **67808 Operating Systems** course at the Hebrew University. Special thanks to the course instructors for their guidance and support.
-
----
