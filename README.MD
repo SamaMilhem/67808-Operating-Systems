@@ -26,7 +26,7 @@ A multi-threaded **MapReduce Framework** implemented in C++, designed to process
 - Efficient synchronization with mutexes, atomic counters, and barriers.
 - Example use case: Counting character occurrences in strings.
 
-**Repository**: [MapReduce Framework](MapReduce_Framework/README.md)
+**Repository**: [MapReduce Framework](MapReduce_Framework/README.MD)
 
 ---
 
@@ -38,7 +38,7 @@ A Linux-based system for multi-server and client communication, leveraging **sha
 - Categorizes servers into Host, Container, and VM types.
 - Tracks and reports server statistics.
 
-**Repository**: [Multi-Server Communication System](Linux_Multi_Server_Ipc/README.md)
+**Repository**: [Multi-Server Communication System](Linux_Multi_Server_Ipc/README.MD)
 
 ---
 
@@ -50,7 +50,7 @@ A virtual memory management simulation implementing **hierarchical page tables**
 - Frame allocation with heuristic-based eviction.
 - Handles page faults and recursive frame traversal.
 
-**Repository**: [Hierarchical Virtual Memory System](Hierarchical_Virtual_Memory_System/README.md)
+**Repository**: [Hierarchical Virtual Memory System](Hierarchical_Virtual_Memory_System/README.MD)
 
 ---
 
